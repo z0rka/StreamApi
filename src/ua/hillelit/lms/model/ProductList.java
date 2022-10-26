@@ -108,6 +108,8 @@ public class ProductList {
    *
    * @param type String type of our product
    * @return {@link  Product} object with the lowest price
+   *
+   * @exception ProductNotFoundException if product wasn`t found
    */
   public Product cheapest(String type) throws ProductNotFoundException {
     return list.stream()
