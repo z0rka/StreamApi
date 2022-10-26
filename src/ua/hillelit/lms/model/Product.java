@@ -2,6 +2,17 @@ package ua.hillelit.lms.model;
 
 import java.time.LocalDateTime;
 
+/**
+ * Class that contains info about product Constructors
+ *
+ * @see Product#Product(String, double)
+ * @see Product#Product(String, double, double)
+ * @see Product#Product(String, double, double, LocalDateTime)
+ * @see Product#Product(String, double, double, LocalDateTime, int)
+ * <p>
+ * Overrided methons
+ * @see Product#toString()
+ */
 public class Product {
 
   private int id;
